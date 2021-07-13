@@ -16,7 +16,6 @@ def get_number_words(num):
 
         if power % 3 == 0:
             if digit:
-
                 terms.extend([DIGITS[digit - 1], "hundred", "and"])
 
         elif (power + 1) % 3 == 0:
@@ -29,7 +28,6 @@ def get_number_words(num):
 
         else:
             if digit and not (terms and terms[-1] in TEENS):
-
                 terms.append(DIGITS[digit - 1])
 
             if terms:
