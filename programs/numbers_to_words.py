@@ -1,7 +1,7 @@
 DIGITS = "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
 TEENS = "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"
 TENS = "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"
-MAJORS = "thousand", "million", "billion", "trillion"
+MAJORS = "thousand", "million", "billion", "trillion", "quadrillion", "quintillion"
 
 
 def get_number_words(num):
